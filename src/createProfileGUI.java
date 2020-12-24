@@ -29,7 +29,6 @@ public class createProfileGUI extends JFrame {
     public createProfileGUI() {
 
         super("WSU Inc");
-        super.setIconImage(new ImageIcon("src\\logo.png").getImage());
         FrameComponents.setFrameSize(this, mainPanel);
         emptyUserPassField.setVisible(false);
         categoryField.addItem("Inventory Manager");
