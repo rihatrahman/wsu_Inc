@@ -22,7 +22,9 @@ public class logInGUI extends JFrame {
      * Constructor
      */
     public logInGUI() {
-        super("Log In");
+
+        super("WSU Inc");
+        super.setIconImage(new ImageIcon("src\\logo.png").getImage());
         FrameComponents.setFrameSize(this, mainPanel);
         invalidErrorMessage.setVisible(false);
         FrameComponents.setFrameLocation(this);

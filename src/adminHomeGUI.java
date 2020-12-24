@@ -20,7 +20,8 @@ public class adminHomeGUI extends JFrame {
      * Constructor
      */
     public adminHomeGUI() {
-        super("Admin Home");
+        super("WSU Inc");
+        super.setIconImage(new ImageIcon("src\\logo.png").getImage());
         FrameComponents.setFrameSize(this, mainPanel);
         FrameComponents.setFrameLocation(this);
 

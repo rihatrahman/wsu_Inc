@@ -26,7 +26,8 @@ public class manageUserHomeGUI extends JFrame implements ActionListener {
      */
     public manageUserHomeGUI() throws FileNotFoundException {
 
-        super("Manage User");
+        super("WSU Inc");
+        super.setIconImage(new ImageIcon("src\\logo.png").getImage());
         FrameComponents.setFrameSize(this, mainPanel);
         buttonPanel.setLayout(new GridLayout(4, 4));
         allUserInfo = ListOfUsers.listOfUsers();

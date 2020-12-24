@@ -23,7 +23,8 @@ public class showUsersGUI extends JFrame {
      */
     public showUsersGUI() throws FileNotFoundException {
 
-        super("Show Users");
+        super("WSU Inc");
+        super.setIconImage(new ImageIcon("src\\logo.png").getImage());
         FrameComponents.setFrameSize(this, mainPanel);
         createTable();
         FrameComponents.setFrameLocation(this);

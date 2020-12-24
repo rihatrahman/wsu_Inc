@@ -31,7 +31,8 @@ public class manageUserGUI extends JFrame {
      */
     public manageUserGUI(User user) {
 
-        super("Manage User");
+        super("WSU Inc");
+        super.setIconImage(new ImageIcon("src\\logo.png").getImage());
         FrameComponents.setFrameSize(this, mainPanel);
         emptyUserPassField.setVisible(false);
 

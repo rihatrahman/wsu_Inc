@@ -16,7 +16,7 @@ public class FrameComponents extends JFrame {
 
         frame.setContentPane(panel);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        frame.setPreferredSize(new Dimension(500, 500));
+        frame.setPreferredSize(new Dimension(550, 420));
     }
 
     /**
